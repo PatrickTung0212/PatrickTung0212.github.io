@@ -1,0 +1,22 @@
+{
+  "education": [
+    {
+      "Year": "2014-2018",
+      "School": "Chu Hai College"
+    },
+    {
+      "Year": "2008-2014",
+      "School": "NTHYKYLDSS"
+    }
+  ],
+  "work": [
+    {
+      "Year": "2020-Present",
+      "Job": "System Engineer"
+    },
+    {
+      "Year": "2018-2019",
+      "Job": "IT Technical Trainee"
+    }
+  ]
+}

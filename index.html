@@ -1,1 +1,476 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from adventurega.me/bootstrap/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 May 2016 13:01:33 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The exact same bootstrap page everyone else makes.">
+    <meta name="author" content="Me, you, her, everyone, et al.">
+
+    <title>Patrick Tung - My Portfolio</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+    <!-- Bootstrap Core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <link
+        href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style02.css" type="text/css">
+
+
+</head>
+
+<body id="page-top">
+    <header>
+        <div>
+            <div class="overlay">
+            </div>
+
+            <i
+                class="wow animate__animated animate__bounceInDown fa fa-2x fa-envelope text-black fixed-mail-icon animate__delay-4s"></i>
+
+            <i id="soundControl"
+                class="wow animate__animated animate__bounceInDown fa fa-2x fa-music text-black fixed-sound-icon animate__delay-4s"></i>
+
+            <div class="container">
+                <div class="row wow animate__animated animate__bounceInDown animate__delay-0s">
+                    <div class="col-lg-6 col-md-12 underlying">
+                        <div class="row-cols-3 underlying" style="text-align: left;">
+                            <img class="rounded-circle personalPhoto" src="assets/images/Me.jpg" alt="Your Image"
+                                onclick="enlargeIcon(this)">
+                            <p class="portfolio-name" style="display: inline-block;">PTung </p>
+
+                        </div>
+                        <div style="text-align: left;">
+                            ▔▔▔▔▔▔▔▔▔▔▔▔
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-md-12 underlying">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon withBorder"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="#">
+                                            <img src="./assets/images/info.png"
+                                                class="hoverBtn personalThumbnail wow animate__animated animate__bounceInDown animate__delay-1s"
+                                                alt="圖片描述" id="AboutMeBtn">
+                                            <p class="personalThumbnailText">About</p>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"> <img id="PortfolioBtn"
+                                                src="./assets/images/book.png"
+                                                class="hoverBtn personalThumbnail wow animate__animated animate__bounceInDown animate__delay-2s">
+                                            <p class="personalThumbnailText">Portfolio</p>
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"> <img id="CareerBtn" src="./assets/images/Star.png"
+                                                class="hoverBtn personalThumbnail wow animate__animated animate__bounceInDown animate__delay-3s"
+                                                alt="圖片描述">
+                                            <p class="personalThumbnailText">CAREER</p>
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div>
+            <div class="container">
+                <div class="row g-1">
+                    <div class="col-lg-3 col-md-6 underlying ">
+
+                        <div class="container downest wow animate__animated animate__bounceInUp animate__delay-1s">
+                            <div class="row">
+
+                                <div class="col">
+                                    <p id="leftSidePersonalBtn" class="leftSideOptionText leftgradientButton">PERSONAL
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p id="leftSidePortfolioBtn" class="leftSideOptionText">PORTFOLIO</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p id="leftSideCareerBtn" class="leftSideOptionText">CAREER</p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col">
+                                    <p id="leftSideCareerBtn" class="leftSideOptionText">GALLERY</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6  underlying woodFrame ">
+
+                        <!-- pro pict here -->
+                        <img id="propict" src="./assets/images/Me04.png"
+                            class="woodFramePhoto wow animate__animated animate__jackInTheBox animate__delay-2s"
+                            style="margin: 40px;">
+
+                        <!-- career table here -->
+                        <div id="careerTable"
+                            style="border-radius: 20px; padding-bottom: 50px; border: 5px solid white;" class="hide">
+                            <p style="font-size: 20px; text-align: left; margin: 30px; font-weight: bold;">Education :
+                            </p>
+                            <table class="table" style="color: white; ">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Year
+                                        </th>
+                                        <th>School</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>2014-2018</td>
+                                        <td>Chu Hai College</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2008-2014</td>
+                                        <td>NTHYKYLDSS</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <p style="font-size: 20px; text-align: left; margin: 30px; font-weight: bold;">Work :</p>
+                            <table class="table" style="color: white; ">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Year
+                                        </th>
+                                        <th>Job</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>2020-Present</td>
+                                        <td>System Engineer
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2018-2019</td>
+                                        <td>IT Technical Trainee
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!-- Portfolio here -->
+                        <div>
+                            <div class="row hide" id="Portfolio">
+                                <div class="col-12 col-md-12 col-xl-6 portfolio-bg portofilo-image-container">
+                                    <img src="./assets/images/First.jpg" class="card-img-top" />
+                                    <div class="portofilo-image-overlay"> </div>
+
+                                    <div class="card-body">
+                                        <h5 class="whiteWord">Haw Par Mansion</h5>
+                                        <p class="whiteWord portfolio-text">
+                                            Some of the buildings of the Tiger Balm Garden have been demolished and
+                                            rebuilt. You can now
+                                            immerse yourselves in the virtual Haw Par Mansion in the old days.
+                                        </p>
+
+                                        <div class="row">
+                                            <div class="col-8 col-md-8 col-xl-8">
+                                                <button type="button"
+                                                    class="wow animate__animated round animate__delay-1s btn btn-primary btn-xl"
+                                                    style="width: 150px;">
+                                                    <a href="https://www.youtube.com/watch?v=bs6yLsw7W-A&list=PL_SO0YUezpcWWMKnA653Giyc6n-t6lK8e&index=29"
+                                                        target="_blank">
+                                                        <i class="fa-solid fa-video"></i> Demo</button></a>
+
+                                            </div>
+                                            <div class="col-2 col-md-2 col-xl-2">
+
+                                                <a href="https://github.com/VRCHSUHK/HPM-2023-" target="_blank">
+                                                    <i
+                                                        class="fa-brands fa-2x fa-github wow animate__animated round animate__delay-1s"></i>
+                                                </a>
+
+                                            </div>
+                                            <div class="col-2 col-md-2 col-xl-2">
+
+                                                <a href="./assets/documents/Heritage.pdf" target="_blank"> <i
+                                                        class="fa-solid fa-2x fa-file wow animate__animated round animate__delay-1s"></i>
+                                                </a>
+                                            </div>
+
+
+                                        </div>
+
+
+
+                                    </div>
+                                </div>
+
+                                <div class="col-12 col-md-12 col-xl-6 portfolio-bg portofilo-image-container">
+                                    <img src="./assets/images/Second.jpg" class="card-img-top" />
+                                    <div class="portofilo-image-overlay"> </div>
+
+                                    <div class="card-body">
+                                        <h5 class="whiteWord">Interior Design</h5>
+                                        <p class="whiteWord portfolio-text">
+                                            Indoor design 3D model showcase. This scene allow you to walkthrough your
+                                            own model and make
+                                            interaction.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-8 col-md-8 col-xl-8">
+                                                <button type="button"
+                                                    class="wow animate__animated round animate__delay-1s btn btn-primary btn-xl"
+                                                    style="width: 150px;">
+                                                    <a href="https://www.youtube.com/watch?v=H0vl6Y7pW5s&list=PL_SO0YUezpcUVveUXcckdesfG4rOMpk8X"
+                                                        target="_blank">
+                                                        <i class="fa-solid fa-video"></i> Demo</button></a>
+
+                                            </div>
+                                            <div class="col-2 col-md-2 col-xl-2">
+
+                                                <a href="https://github.com/QESS-team/InteriorDesign" target="_blank">
+                                                    <i
+                                                        class="fa-brands fa-2x fa-github wow animate__animated round animate__delay-1s"></i>
+                                                </a>
+
+                                            </div>
+                                            <div class="col-2 col-md-2 col-xl-2">
+
+                                               
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-12 col-xl-6 portfolio-bg portofilo-image-container">
+                                    <img src="./assets/images/Third.jpg" class="card-img-top" />
+                                    <div class="portofilo-image-overlay"> </div>
+
+                                    <div class="card-body">
+                                        <h5 class="whiteWord">Lost Island</h5>
+                                        <p class="whiteWord portfolio-text">
+                                            You arrived on an abandoned island… and you were so eager to explore.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-8 col-md-8 col-xl-8">
+                                                <button type="button"
+                                                    class="wow animate__animated round animate__delay-1s btn btn-primary btn-xl"
+                                                    style="width: 150px;">
+                                                    <a href="https://www.youtube.com/watch?v=T92i_flmiA4&list=PL_SO0YUezpcV-_TInC_uQtTf1GN1Qbf06"
+                                                        target="_blank">
+                                                        <i class="fa-solid fa-video"></i> Demo</button></a>
+
+                                            </div>
+                                            <div class="col-2 col-md-2 col-xl-2">
+
+                                                <a href="https://github.com/QESS-team/VRFinal" target="_blank">
+                                                    <i
+                                                        class="fa-brands fa-2x fa-github wow animate__animated round animate__delay-1s"></i>
+                                                </a>
+
+                                            </div>
+                                            <div class="col-2 col-md-2 col-xl-2">
+
+                                                <a href="./assets/documents/Lost_Island.pdf" target="_blank"> <i
+                                                        class="fa-solid fa-2x fa-file wow animate__animated round animate__delay-1s"></i>
+                                                </a>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-12 col-xl-6 portfolio-bg portofilo-image-container">
+                                    <img src="./assets/images/Fourth.jpg" class="card-img-top" />
+                                    <div class="portofilo-image-overlay"> </div>
+
+                                    <div class="card-body">
+                                        <h5 class="whiteWord">Pomping World</h5>
+                                        <p class="whiteWord portfolio-text">
+                                            The remake of the interesting arcade game Buster Bros in 1989
+                                            released by Mitchell Corporation.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-8 col-md-8 col-xl-8">
+                                                <button type="button"
+                                                    class="wow animate__animated round animate__delay-1s btn btn-primary btn-xl"
+                                                    style="width: 150px;">
+                                                    <a href="https://youtu.be/0vdrf3Ykiuk"
+                                                        target="_blank">
+                                                        <i class="fa-solid fa-video"></i> Demo</button></a>
+
+                                            </div>
+                                            <div class="col-2 col-md-2 col-xl-2">
+
+                                               
+
+                                            </div>
+                                            <div class="col-2 col-md-2 col-xl-2">
+
+                                                <a href="./assets/documents/Pomping_World.pdf" target="_blank"> <i
+                                                        class="fa-solid fa-2x fa-file wow animate__animated round animate__delay-1s"></i>
+                                                </a>
+                                            </div>
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- About me -->
+                    <div id="AboutMe"
+                        class="col-lg-3 col-md-12 underlying wow animate__animated animate__fadeInRightBig animate__delay-3s"
+                        style="padding-bottom: 200px;">
+                        <div class="leftestContainer">
+                            <img src="./assets/images/heart.png" class="personalThumbnail">
+                            <p class="introductionText" style="font-size: 20px;  display: inline;">
+                                PERSONAL</p>
+                        </div>
+                        <div>
+                            <p class="rightgradientButton" style="text-align: left;"> ABOUT ME</p>
+                        </div>
+                        <div>
+                            <p class="introductionText" style="font-size: 15px;"> I'm a Unity developer that trying to
+                                create immersive
+                                experience by making VR game. My days are filled with working on Unity, C#, and various
+                                other tools that allow me to bring virtual worlds to life. I spend hours refining
+                                gameplay mechanics, designing captivating environments, and implementing realistic
+                                interactions to ensure players are fully immersed in the VR experience.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="follow-block" class="Fixed-Block-Container">
+            <div class="follow-block portfolio-bg hide">
+                <p style="font-size: 15px; text-align: left;">
+                    I have worked on a variety of projects, including a virtual tour of the historic Haw Par Mansion, an
+                    interactive 3D model showcase for interior design, and a remake of the classic arcade game Buster
+                    Bros. I have also created a game called Lost Island, where players explore an abandoned island.
+                    Through these projects, I have developed skills in virtual reality, 3D modeling, game development,
+                    and more.
+                </p>
+                <div class="chibi-thumbnail" style="float: right;">
+                    <img src="./assets/images/chibi.png" class="chibi-thumbnail">
+                </div>
+
+
+                <span class="close-btn">X</span>
+            </div>
+
+        </div>
+
+
+
+
+
+        <aside class="bg-dark">
+            <div>
+                <div class="call-to-action">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-12 col-lg-offset-2 text-center">
+                                <i class="fa fa-phone fa-2x"></i>
+                                <p>+852 62171968</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="col-lg-12 text-center">
+                                <i class="fa fa-envelope-o fa-2x" data-wow-delay=".1s"></i>
+                                <p>patricktung@chuhai.edu.hk</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+
+
+        <!--Scripts required for bootstrap CDN-->
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+        <!-- Plugin JavaScript -->
+        <!-- <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script> -->
+        <script src="https://kit.fontawesome.com/3dabc1fde2.js" crossorigin="anonymous"></script>
+
+        <script src="wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+
+        <script src="app.js"></script>
+
+
+
+</body>
+
+</html>

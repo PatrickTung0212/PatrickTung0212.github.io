@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from adventurega.me/bootstrap/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 May 2016 13:01:33 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The exact same bootstrap page everyone else makes.">
+    <meta name="author" content="Me, you, her, everyone, et al.">
+
+    <title>Every Student Website Homework Ever</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <link
+        href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+        rel='stylesheet' type='text/css'>
+    <link
+        href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <!-- Only play when user interact with the webpage -->
+    <!-- <audio autoplay>
+        <source src="assets/BGM.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio> -->
+
+    <script>
+        // wait for page loaded
+        document.addEventListener("DOMContentLoaded", function() {
+          var audio = document.getElementById("myAudio");
+          
+          audio.play();
+        });
+      </script>
+
+    <audio id="myAudio" autoplay>
+        <source src="assets/BGM.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <a class="navbar-brand" href="#"> <img class="rounded-circle personalPhoto" src="assets/images/Me.jpg"
+                alt="Your Image" class="img-fluid">PTung</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#"> Portfolio </span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Link </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#"> More to come..</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 class="animate__animated animate__fadeIn animate__delay-0s"> My personal website </h1>
+                <hr>
+                <p class="animate__animated animate__fadeIn animate__delay-1s">Now, I can proudly say that I'm a coding
+                    wizard who can bring any idea to life, even in the most
+                    unexpected ways. So, keep your eyes peeled because I might just surprise you with my next coding
+                    adventure! 😉🎩</p>
+                <a href="#about"
+                    class="animate__animated animate__fadeIn animate__delay-2s btn btn-primary btn-xl page-scroll">Scroll</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-dark with-border" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2>What is one thing that I learned from doing this project?</h2>
+                    <hr class="light">
+                    <p class="text-faded wow animate__animated animate__zoomIn animate__delay-1s ">The process of
+                        searching and finding the appropriate resources. Throughout the
+                        project, i had to search for solutions to specific CSS positioning challenges and find resources
+                        such as documentation, tutorials, or examples to help me understand and implement the desired
+                        layout.</p>
+                    <a href="https://www.google.com/" target="_blank" class="btn btn-default btn-xl">Google</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-light" id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">These are the elements of your personal website!</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i src="./assets/images/1.jpg"
+                            class="wow animate__animated animate__bounceInDown fa fa-4x fa-linkedin text-black"></i>
+                        <h3>Profile </h3>
+                        <p class="text-muted">Add a personal profile widget to your website to let visitors know about
+                            your background, skills, and experience. </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="wow animate__animated animate__bounceInDown fa fa-4x fa-twitter wow bounceIn text-black"
+                            data-wow-delay=".1s"></i>
+                        <h3>Social Media</h3>
+                        <p class="text-muted">Add a social media links widget to your website, allowing visitors to
+                            easily find your accounts on other social media platforms</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="wow animate__animated animate__bounceInDown fa fa-4x fa-gratipay wow bounceIn text-black"
+                            data-wow-delay=".2s"></i>
+                        <h3>Client Testimonials</h3>
+                        <p class="text-muted">Add a client testimonials widget to your website to showcase reviews and
+                            recommendations from past clients.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="wow animate__animated animate__bounceInDown fa fa-4x fa-lightbulb wow bounceIn text-black"
+                            data-wow-delay=".3s"></i>
+                        <h3>Skills</h3>
+                        <p class="text-muted">Create a skills showcase widget to list your professional skills and
+                            abilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <img src="assets/images/First.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    One Thing
+                                </div>
+                                <div class="project-name">
+                                    Look
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <img src="assets/images/Second.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Two Thing
+                                </div>
+                                <div class="project-name">
+                                    At
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <img src="assets/images/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Three Thing
+                                </div>
+                                <div class="project-name">
+                                    This
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <img src="assets/images/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Four Thing
+                                </div>
+                                <div class="project-name">
+                                    Bullshit
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <div class="container">
+        <div class="row">
+            <div class="card col-12 col-md-6 col-xl-3">
+                <img src="./assets/images/First.jpg" class="card-img-top" />
+
+                <div class="card-body">
+                    <h5>Haw Par Mansion</h5>
+                    <p>
+                        Some of the buildings of the Tiger Balm Garden have been demolished and rebuilt. You can now
+                        immerse yourselves in the virtual Haw Par Mansion in the old days.
+                    </p>
+                    <button type="button" class="wow animate__animated round animate__delay-1s btn btn-primary btn-xl">
+                        <i class="fa-solid fa-video"></i> Demo
+
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-xl-3">
+                <img src="./assets/images/Second.jpg" class="card-img-top" />
+
+                <div class="card-body">
+                    <h5>Interior Design</h5>
+                    <p> Indoor design 3D model showcase. This scene allow you to walkthrough your own model and make
+                        interaction.</p>
+
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-xl-3">
+                <img src="./assets/images/Third.jpg" class="card-img-top" />
+
+                <div class="card-body">
+                    <h5>Lost Island
+                    </h5>
+                    <p>You arrived on an abandoned island… and you were so eager to explore.</p>
+                </div>
+            </div>
+
+            <div class="card col-12 col-md-6 col-xl-3">
+                <img src="./assets/images/Fourth.jpg" class="card-img-top" />
+
+                <div class="card-body">
+                    <h5>Pomping World</h5>
+                    <p>The remake of the interesting arcade game Buster Bros in 1989
+                        released by Mitchell Corporation.</p>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <br>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>And ... more to come!</h2>
+                <a href="#" class="btn btn-default btn-xl wow tada">Back</a>
+            </div>
+        </div>
+    </aside>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col col-12 p-2 col-md-6 col-xl-3 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">My Contact Information</h2>
+                    <hr class="primary">
+                </div> -->
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <!--form-->
+
+                    <h4>Give Us Feedback</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.
+                            </div>
+                        </div>
+                        <div class="mb-lg-5">
+                            <label for="exampleFormControlTextarea1" class="form-label">Tell us anything</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-primary submit">Submit</button>
+                    </form>
+
+
+                </div>
+
+            </div>
+
+
+    </section>
+
+    <aside class="bg-dark">
+        <div>
+            <div class="call-to-action">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-12 col-lg-offset-2 text-center">
+                            <i class="fa fa-phone fa-2x"></i>
+                            <p>+852 62171968</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="col-lg-12 text-center">
+                            <i class="fa fa-envelope-o fa-2x" data-wow-delay=".1s"></i>
+                            <p>patricktung@chuhai.edu.hk</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </aside>
+
+
+    
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!--Scripts required for bootstrap CDN-->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!-- Plugin JavaScript -->
+    <!-- <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script> -->
+    <script src="https://kit.fontawesome.com/3dabc1fde2.js" crossorigin="anonymous"></script>
+
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="creative.js"></script>
+
+   
+
+</body>
+
+
+<!-- Mirrored from adventurega.me/bootstrap/ by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 May 2016 13:01:44 GMT -->
+
+</html>
